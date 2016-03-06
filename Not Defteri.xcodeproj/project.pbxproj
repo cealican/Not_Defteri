@@ -15,6 +15,8 @@
 		5A0F97CD1C830E0300B4DB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F97CB1C830E0300B4DB2F /* LaunchScreen.storyboard */; };
 		5A0F97D81C830E0300B4DB2F /* Not_DefteriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F97D71C830E0300B4DB2F /* Not_DefteriTests.swift */; };
 		5A0F97E31C830E0300B4DB2F /* Not_DefteriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F97E21C830E0300B4DB2F /* Not_DefteriUITests.swift */; };
+		5A7BDECB1C8C6C9400E1C185 /* NotEntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BDECA1C8C6C9400E1C185 /* NotEntityClass.swift */; };
+		5A7BDECD1C8C76D900E1C185 /* VCYeniNotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BDECC1C8C76D900E1C185 /* VCYeniNotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5A0F97DE1C830E0300B4DB2F /* Not DefteriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Not DefteriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0F97E21C830E0300B4DB2F /* Not_DefteriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not_DefteriUITests.swift; sourceTree = "<group>"; };
 		5A0F97E41C830E0300B4DB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7BDECA1C8C6C9400E1C185 /* NotEntityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotEntityClass.swift; sourceTree = "<group>"; };
+		5A7BDECC1C8C76D900E1C185 /* VCYeniNotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCYeniNotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				5A0F97CB1C830E0300B4DB2F /* LaunchScreen.storyboard */,
 				5A0F97CE1C830E0300B4DB2F /* Info.plist */,
 				5A0F97C61C830E0300B4DB2F /* Not_Defteri.xcdatamodeld */,
+				5A7BDECA1C8C6C9400E1C185 /* NotEntityClass.swift */,
+				5A7BDECC1C8C76D900E1C185 /* VCYeniNotViewController.swift */,
 			);
 			path = "Not Defteri";
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 				5A0F97C81C830E0300B4DB2F /* Not_Defteri.xcdatamodeld in Sources */,
 				5A0F97C21C830E0300B4DB2F /* ViewController.swift in Sources */,
 				5A0F97C01C830E0300B4DB2F /* AppDelegate.swift in Sources */,
+				5A7BDECD1C8C76D900E1C185 /* VCYeniNotViewController.swift in Sources */,
+				5A7BDECB1C8C6C9400E1C185 /* NotEntityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +496,7 @@
 				5A0F97E91C830E0300B4DB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A0F97EA1C830E0300B4DB2F /* Build configuration list for PBXNativeTarget "Not DefteriTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				5A0F97EC1C830E0300B4DB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A0F97ED1C830E0300B4DB2F /* Build configuration list for PBXNativeTarget "Not DefteriUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				5A0F97EF1C830E0300B4DB2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
